@@ -20,7 +20,7 @@ app.secret_key = 'any random string'
 def dbConnection():
     try:
         # connection = pymysql.connect(host="localhost", user="root", password="root", database="shikshana")
-        connection = pymysql.connect(host="importdatacsv.cjcudvtikpta.eu-north-1.rds.amazonaws.com", user="localhost_admin", password="rootadmin", database="shikshana")
+        connection = pymysql.connect(host="admin.cylnoaugrdrq.us-east-1.rds.amazonaws.com", user="rootadmin", password="rootadmin", database="shikshana")
         return connection
     except:
         print("Something went wrong in database Connection")
